@@ -1,0 +1,137 @@
+{
+    "keyboard_name": "Inspiron I14R345",
+    "manufacturer": "Dell",
+    "url": "",
+    "maintainer": "Luciano",
+    "usb": {
+        "vid": "0x4254",
+        "pid": "0x7070",
+        "device_version": "0.0.1",
+        "force_nkro": true
+    },
+
+    "bootmagic": {
+        "matrix": [0, 13]
+    },
+
+    "indicators": {
+        "caps_lock": "C13",
+        "on_state": 0
+    },
+    "matrix_pins": {
+        "rows": [ "A10", "B3", "B4", "B5", "B6", "B7", "B8", "B9" ],
+        "cols": [ "A0", "A1", "A2", "A4", "A5", "A6", "A7", "A8", "A9", "B0", "B1", "B10", "B11", "B12", "B13", "B14", "B15" ]
+      },
+    "diode_direction": "ROW2COL",
+
+    "ws2812": {
+        "pin": "C15",
+        "driver": "spi"
+    },
+    "processor": "STM32F103",
+    "bootloader": "stm32duino",
+    "layout_aliases": {
+        "LAYOUT_ansi_87": "LAYOUT"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "KC_UP", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "BR_TILD", "matrix": [0, 4], "x": 1.5, "y": 0},
+                {"label": "KC_F6", "matrix": [0, 5], "x": 2.5, "y": 0},
+                {"label": "KC_H", "matrix": [0, 6], "x": 3.5, "y": 0},
+                {"label": "KC_F5", "matrix": [0, 9], "x": 4.5, "y": 0},
+                {"label": "KC_G", "matrix": [0, 10], "x": 6, "y": 0},
+                {"label": "KC_F4", "matrix": [0, 11], "x": 7, "y": 0},
+                {"label": "BR_BSLS", "matrix": [0, 12], "x": 8, "y": 0},
+                {"label": "KC_ESC", "matrix": [0, 13], "x": 9, "y": 0},
+                {"label": "KC_LALT", "matrix": [0, 14], "x": 10.5, "y": 0},
+
+                {"label": "KC_LEFT", "matrix": [1, 0], "x": 0, "y": 1.25},
+                {"label": "KC_DOWN", "matrix": [1, 1], "x": 1, "y": 1.25},
+                {"label": "KC_RGHT", "matrix": [1, 2], "x": 2, "y": 1.25},
+                {"label": "BR_SCLN", "matrix": [1, 4], "x": 3, "y": 1.25},
+                {"label": "BR_SLSH", "matrix": [1, 5], "x": 4, "y": 1.25},
+                {"label": "KC_N", "matrix": [1, 6], "x": 5, "y": 1.25},
+                {"label": "KC_SPC", "matrix": [1, 9], "x": 6, "y": 1.25},
+                {"label": "KC_B", "matrix": [1, 10], "x": 7, "y": 1.25},
+                {"label": "KC_MUTE", "matrix": [1, 13], "x": 8, "y": 1.25},
+                {"label": "KC_RALT", "matrix": [1, 14], "x": 9, "y": 1.25},
+
+                {"label": "KC_DOT", "matrix": [2, 3], "x": 0, "y": 2.25, "w": 1.5},
+                {"label": "BR_RBRC", "matrix": [2, 4], "x": 1.5, "y": 2.25},
+                {"label": "KC_COMM", "matrix": [2, 5], "x": 2.5, "y": 2.25},
+                {"label": "KC_M", "matrix": [2, 6], "x": 3.5, "y": 2.25},
+                {"label": "KC_ENT", "matrix": [2, 9], "x": 4.5, "y": 2.25},
+                {"label": "KC_V", "matrix": [2, 10], "x": 5.5, "y": 2.25},
+                {"label": "KC_C", "matrix": [2, 11], "x": 6.5, "y": 2.25},
+                {"label": "KC_X", "matrix": [2, 12], "x": 7.5, "y": 2.25},
+                {"label": "KC_Z", "matrix": [2, 13], "x": 8.5, "y": 2.25},
+                {"label": "KC_RSFT", "matrix": [2, 15], "x": 9.5, "y": 2.25},
+
+                {"label": "KC_L", "matrix": [3, 3], "x": 0, "y": 3.25, "w": 1.75},
+                {"label": "BR_CCED", "matrix": [3, 4], "x": 1.75, "y": 3.25},
+                {"label": "KC_K", "matrix": [3, 5], "x": 2.75, "y": 3.25},
+                {"label": "KC_J", "matrix": [3, 6], "x": 3.75, "y": 3.25},
+                {"label": "KC_PGDN", "matrix": [3, 7], "x": 4.75, "y": 3.25},
+                {"label": "MO(_FN)", "matrix": [3, 8], "x": 5.75, "y": 3.25},
+                {"label": "KC_F", "matrix": [3, 10], "x": 6.75, "y": 3.25},
+                {"label": "KC_D", "matrix": [3, 11], "x": 7.75, "y": 3.25},
+                {"label": "KC_S", "matrix": [3, 12], "x": 8.75, "y": 3.25},
+                {"label": "KC_A", "matrix": [3, 13], "x": 9.75, "y": 3.25},
+
+                {"label": "KC_O", "matrix": [4, 3], "x": 0, "y": 4.25, "w": 2.25},
+                {"label": "KC_P", "matrix": [4, 4], "x": 2.25, "y": 4.25},
+                {"label": "KC_I", "matrix": [4, 5], "x": 3.25, "y": 4.25},
+                {"label": "KC_U", "matrix": [4, 6], "x": 4.25, "y": 4.25},
+                {"label": "KC_PGUP", "matrix": [4, 7], "x": 5.25, "y": 4.25},
+                {"label": "KC_R", "matrix": [4, 10], "x": 6.25, "y": 4.25},
+                {"label": "KC_E", "matrix": [4, 11], "x": 7.25, "y": 4.25},
+                {"label": "KC_W", "matrix": [4, 12], "x": 8.25, "y": 4.25},
+                {"label": "KC_Q", "matrix": [4, 13], "x": 9.25, "y": 4.25},
+
+                {"label": "KC_END", "matrix": [5, 0], "x": 0, "y": 5.25, "w": 1.25},
+                {"label": "KC_F11", "matrix": [5, 1], "x": 1.25, "y": 5.25, "w": 1.25},
+                {"label": "KC_F12", "matrix": [5, 2], "x": 2.5, "y": 5.25, "w": 1.25},
+                {"label": "KC_9", "matrix": [5, 3], "x": 3.75, "y": 5.25, "w": 6.25},
+                {"label": "KC_0", "matrix": [5, 4], "x": 10, "y": 5.25},
+                {"label": "KC_8", "matrix": [5, 5], "x": 11, "y": 5.25},
+                {"label": "KC_7", "matrix": [5, 6], "x": 12, "y": 5.25},
+                {"label": "KC_LGUI", "matrix": [5, 7], "x": 13, "y": 5.25},
+                {"label": "KC_F10", "matrix": [5, 9], "x": 14, "y": 5.25},
+                {"label": "KC_4", "matrix": [5, 10], "x": 15, "y": 5.25},
+                {"label": "KC_3", "matrix": [5, 11], "x": 16, "y": 5.25},
+                {"label": "KC_2", "matrix": [5, 12], "x": 17, "y": 5.25},
+                {"label": "KC_1", "matrix": [5, 13], "x": 18, "y": 5.25},
+                {"label": "KC_INS", "matrix": [5, 14], "x": 19, "y": 5.25},
+
+                {"label": "KC_HOME", "matrix": [6, 0], "x": 0, "y": 5.25, "w": 1.25},
+                {"label": "KC_DEL", "matrix": [6, 1], "x": 1.25, "y": 5.25, "w": 1.25},
+                {"label": "KC_PSCR", "matrix": [6, 2], "x": 2.5, "y": 5.25, "w": 1.25},
+                {"label": "KC_F8", "matrix": [6, 3], "x": 3.75, "y": 5.25, "w": 6.25},
+                {"label": "KC_MINS", "matrix": [6, 4], "x": 10, "y": 5.25},
+                {"label": "KC_EQL", "matrix": [6, 5], "x": 11, "y": 5.25},
+                {"label": "KC_6", "matrix": [6, 6], "x": 12, "y": 5.25},
+                {"label": "KC_F9", "matrix": [6, 9], "x": 13, "y": 5.25},
+                {"label": "KC_5", "matrix": [6, 10], "x": 14, "y": 5.25},
+                {"label": "KC_F2", "matrix": [6, 11], "x": 16, "y": 5.25},
+                {"label": "KC_F1", "matrix": [6, 12], "x": 17, "y": 5.25},
+                {"label": "BR_QUOT", "matrix": [6, 13], "x": 18, "y": 5.25},
+                {"label": "KC_LCTL", "matrix": [6, 16], "x": 19, "y": 5.25},
+
+                {"label": "KC_F7", "matrix": [7, 3], "x": 0, "y": 5.25, "w": 1.25},
+                {"label": "BR_ACUT", "matrix": [7, 4], "x": 1.25, "y": 5.25, "w": 1.25},
+                {"label": "BR_LBRC", "matrix": [7, 5], "x": 2.5, "y": 5.25, "w": 1.25},
+                {"label": "KC_Y", "matrix": [7, 6], "x": 3.75, "y": 5.25, "w": 6.25},
+                {"label": "KC_APP", "matrix": [7, 8], "x": 10, "y": 5.25},
+                {"label": "KC_BSPC", "matrix": [7, 9], "x": 11, "y": 5.25},
+                {"label": "KC_T", "matrix": [7, 10], "x": 12, "y": 5.25},
+                {"label": "KC_F3", "matrix": [7, 11], "x": 13, "y": 5.25},
+                {"label": "KC_CAPS", "matrix": [7, 12], "x": 14, "y": 5.25},
+                {"label": "KC_TAB", "matrix": [7, 13], "x": 15, "y": 5.25},
+                {"label": "KC_LSFT", "matrix": [7, 15], "x": 16, "y": 5.25}
+            ]
+        }
+    }
+
+}
