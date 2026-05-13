@@ -1,13 +1,15 @@
 {
-    "manufacturer": "Luciano Alves",
-    "keyboard_name": "laptop_dell",
+    "manufacturer": "Dell",
+    "keyboard_name": "VOSTRO",
     "maintainer": "Luciano Alves",
-    "development_board": "bluepill",
+    "board": "bluepill",
     "diode_direction": "COL2ROW",
+    "processor": "STM32F103",
+    "bootloader": "stm32duino",
     "features": {
         "bootmagic": false,
         "mousekey": false,
-        "extrakey": true,
+        "extrakey": false,
         "nkro": true
     },
         "indicators": {
@@ -16,9 +18,9 @@
     },
     "matrix_pins": {
         "rows": [ "A10", "B3", "B4", "B5", "B6", "B7", "B8", "B9" ],
-        "cols": [ "A0", "A1", "A2", "A4", "A5", "A6", "A7", "A8", "A9", "B0", "B1", "B10", "B11", "B12", "B13", "B14", "B15" ]
+        "cols": [ "A0", /*"A1"*/"A3", "A2", "A4", "A5", "A6", "A7", "A8", "A9", "B0", "B1", "B10", "B11", "B12", "B13", "B14", "B15" ]
       },
-    "url": "",
+
     "usb": {
         "vid": "0x4254",
         "pid": "0x7070",

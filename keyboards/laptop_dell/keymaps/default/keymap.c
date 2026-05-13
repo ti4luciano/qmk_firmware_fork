@@ -4,6 +4,13 @@
 #include QMK_KEYBOARD_H
 #include "keymap_brazilian_abnt2.h"
 
+void keyboard_pre_init_kb(void) {
+    palSetPadMode(GPIOC, 13, PAL_MODE_OUTPUT_PUSHPULL);
+    palClearPad(GPIOC, 13);
+    wait_ms(500);
+    palSetPad(GPIOC, 13);
+}
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
 		KC_UP, BR_TILD, KC_F6, KC_H, KC_F5, KC_G, KC_F4, BR_BSLS, KC_ESC, KC_LALT,

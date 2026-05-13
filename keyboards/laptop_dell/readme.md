@@ -1,12 +1,12 @@
 # laptop_dell
 
-![laptop_dell](imgur.com image replace me!)
+![laptop_dell](sem imagem)
 
-*A short description of the keyboard/project*
+*asdçlfkjasçdlfasf
 
 * Keyboard Maintainer: [Luciano Alves](https://github.com/Luciano Alves)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: stm32
+* Hardware Availability: stm32
 
 Make example for this keyboard (after setting up your build environment):
 
